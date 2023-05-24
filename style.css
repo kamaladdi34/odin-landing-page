@@ -146,19 +146,27 @@ main h3{
     height: 300px;
 }
 .call-to-action-container{
-    background-color: rgb(31, 31, 31);
+    background-color: #150c03;
     color: white;
     padding: 16px 45px 16px 45px;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    border-radius: 5px;
 }
 .call-to-action-container button{
-    padding: 5px 25px 5px 25px;
+    padding: 10px 35px 10px 35px;
     background-color: transparent;
     color: rgb(255, 255, 255);
     border: 1px solid white;
+    border-radius: 5px;
+}
+.call-to-action-container button:hover{
+    background-color: transparent;
+    color: #fedfc8;
+    border-color: #fedfc8;
+    cursor: pointer;
 }
 footer{
     display: flex;
@@ -166,5 +174,5 @@ footer{
     align-items: center;
     height: 45px;
     color: white;
-    background-color: rgb(26, 26, 26);
+    background-color: #150c03;
 }
