@@ -63,7 +63,10 @@ nav a {
 }
 .hero-image-container{
     min-height: 100%;
-    background-color: aliceblue;
+}
+.hero-image-container img{
+    max-height: 300px;
+    float: right;
 }
 .hero-image-container, .hero-text{
     flex-basis: 0;
