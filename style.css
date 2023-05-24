@@ -15,7 +15,7 @@
 }
 /* header*/
 header{
-    background-color: rgb(30, 30, 30);
+    background-color: #513217;
 }
 nav{
     display: flex;
@@ -29,7 +29,11 @@ nav ul {
     gap: 16px;
 }
 nav a {
-    color: white;
+    color: #ece0d1;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #241508;
 }
 .logo{
     font-size: 20px;
@@ -54,12 +58,25 @@ nav a {
     line-height: 65px;
     font-weight: 300;
     font-family: 'Pacifico', cursive;
+    color: #ece0d1;
+}
+.hero-text p {
+    color: #ece0d1;
+    font-weight: bold;
 }
 .hero-text button{
-    padding: 5px 25px 5px 25px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    padding: 10px 45px 10px 45px;
+    background-color: #f0d8c5;
+    color:#967259;
     border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero-text button:hover{
+    background-color: #ffecdd;
+    color:#967259;
+    cursor: pointer;
+    transition: background-color .3s;
 }
 .hero-image-container{
     min-height: 100%;
@@ -67,6 +84,7 @@ nav a {
 .hero-image-container img{
     max-height: 300px;
     float: right;
+    filter: drop-shadow(0px 0px 79px #fedfc8);
 }
 .hero-image-container, .hero-text{
     flex-basis: 0;
