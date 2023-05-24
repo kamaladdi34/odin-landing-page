@@ -105,3 +105,25 @@ main h3{
 .quote h3 {
     align-self: flex-end;
 }
+/* call to action*/
+.call-to-action .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.call-to-action-container{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 16px 45px 16px 45px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.call-to-action-container button{
+    padding: 5px 25px 5px 25px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
