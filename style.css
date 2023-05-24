@@ -1,3 +1,5 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -31,7 +33,7 @@ nav a {
 }
 .logo{
     font-size: 20px;
-    font-weight: bold;
+    font-family: 'Pacifico', cursive;
 }
 .hero{
     display: flex;
@@ -48,8 +50,10 @@ nav a {
     justify-content: space-between;
 }
 .hero-text h3 {
-    font-size: 56px;
-    line-height: 45px;
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 300;
+    font-family: 'Pacifico', cursive;
 }
 .hero-text button{
     padding: 5px 25px 5px 25px;
