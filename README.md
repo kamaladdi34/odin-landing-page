@@ -1,3 +1,3 @@
 # odin-landing-page
-A landing page projet to practice HTML & CSS in THe Odin PRoject TOP.
-"coffe.png" image source: https://www.pngegg.com/en/png-pfkxb
+A landing page project to practice HTML & CSS in The Odin Project TOP.  
+"coffee.png" image source: https://www.pngegg.com/en/png-pfkxb
