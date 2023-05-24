@@ -127,3 +127,11 @@ main h3{
     color: rgb(255, 255, 255);
     border: 1px solid white;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
