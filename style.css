@@ -94,11 +94,14 @@ nav a:hover{
 }
 /* main */
 main{
-    background-color: rgb(255, 255, 255);
+    background-color: #fff4eb;
 }
 main h3{
     text-align: center;
     padding-top: 45px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: #2e1a09;
 }
 
 .info-cards{
@@ -118,7 +121,7 @@ main h3{
 }
 /* quote */
 .quote{
-    background-color: rgb(243, 243, 243);
+    background-color: #fedfc8;
 }
 .quote .container{
     display: flex;
@@ -126,8 +129,11 @@ main h3{
     align-items: center;
     justify-content: center;
 }
-.quote p {
+.quote p  em{
     font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    color: #2e1a09;
+    
 }
 .quote h3 {
     align-self: flex-end;
